@@ -1,0 +1,14 @@
+{
+  "run_id": "pi0_infer_with_torch_baseline",
+  "recipe_name": "pi0_infer_with_torch",
+  "variant": "baseline",
+  "status": "success",
+  "run_mode": "single_card",
+  "device_count": 1,
+  "latency_ms": 94.0,
+  "throughput": 10.6,
+  "memory_peak_gb": 9.8,
+  "accuracy_metric": "success_rate",
+  "accuracy_value": 0.910,
+  "notes": "已有 warmup 和 benchmark，但结果仍主要出现在控制台。"
+}

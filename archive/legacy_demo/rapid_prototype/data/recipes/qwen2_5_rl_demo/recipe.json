@@ -1,0 +1,20 @@
+{
+  "recipe_name": "qwen2_5_rl_demo",
+  "model_name": "Qwen2.5 1.5B RL Demo",
+  "task_type": "llm_rl_training",
+  "mode": "train",
+  "domain": "llm",
+  "hardware_target": "Ascend A2",
+  "cann_version": "8.x",
+  "framework": "PyTorch + verl",
+  "entry_command": "bash run_qwen2_5_1_5b.sh",
+  "profiling_supported": false,
+  "baseline_run_id": "qwen2_5_rl_demo_baseline",
+  "optimized_run_id": "qwen2_5_rl_demo_optimized",
+  "summary": "训练门槛较低，适合先把训练日志、checkpoint 和收益对比沉淀到统一结构。",
+  "expected_focus": [
+    "train",
+    "logs",
+    "throughput"
+  ]
+}

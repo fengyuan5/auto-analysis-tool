@@ -1,0 +1,14 @@
+{
+  "run_id": "your_recipe_name_baseline",
+  "recipe_name": "your_recipe_name",
+  "variant": "baseline",
+  "status": "success",
+  "run_mode": "single_card",
+  "device_count": 1,
+  "latency_ms": 100.0,
+  "throughput": 10.0,
+  "memory_peak_gb": 8.0,
+  "accuracy_metric": "success_rate",
+  "accuracy_value": 0.9,
+  "notes": "Describe the environment, key configuration, or optimization delta."
+}

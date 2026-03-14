@@ -1,0 +1,8 @@
+{
+  "run_id": "pi0_infer_with_torch_optimized",
+  "host_wait_ratio": 0.10,
+  "kernel_utilization": 0.68,
+  "io_wait_ratio": 0.09,
+  "launch_overhead_ms": 6.1,
+  "dominant_issue": "balanced_inference_path"
+}

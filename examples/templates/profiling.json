@@ -1,0 +1,8 @@
+{
+  "run_id": "your_recipe_name_baseline",
+  "host_wait_ratio": 0.12,
+  "kernel_utilization": 0.68,
+  "io_wait_ratio": 0.08,
+  "launch_overhead_ms": 6.5,
+  "dominant_issue": "describe_the_main_bottleneck"
+}

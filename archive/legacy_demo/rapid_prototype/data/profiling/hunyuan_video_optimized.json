@@ -1,0 +1,8 @@
+{
+  "run_id": "hunyuan_video_optimized",
+  "host_wait_ratio": 0.12,
+  "kernel_utilization": 0.71,
+  "io_wait_ratio": 0.05,
+  "launch_overhead_ms": 10.2,
+  "dominant_issue": "mostly_compute_bound"
+}

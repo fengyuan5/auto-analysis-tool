@@ -1,0 +1,13 @@
+repo_name,example_name,model_name,task_type,doc_status,entry_status,run_status,profiling_status,optimization_notes_status,trial_priority,current_gap,notes
+cann-recipes-infer,deepseek-r1,DeepSeek-R1/Kimi-K2,infer,complete,clear,complex,partial,yes,medium,"A3集群要求高；权重转换和YAML配置复杂；profiling产物未标准化","有README、infer.sh、infer.py、多个yaml；适合后续做高价值复杂样例"
+cann-recipes-infer,hstu,HSTU,infer,complete,partial,complex,partial,yes,low,"依赖RecSDK和外部recsys-examples；容器和算子编译复杂；入口不够统一","更像深度适配案例，不适合第一批最小闭环"
+cann-recipes-infer,hunyuan-video,HunyuanVideo,multimodal_infer,complete,clear,moderate,yes,yes,high,"依赖上游HunyuanVideo仓；需要权重和环境准备；profiling结果落盘方式仍需统一","有scripts/test.sh和test_sp.sh；覆盖多流/序列并行/dit-cache等优化点"
+cann-recipes-train,qwen2.5-rl-demo,Qwen2.5-1.5B-Instruct,rl_train,complete,clear,moderate,partial,partial,high,"依赖verl和在线数据/权重下载；profiling与收益记录未统一","单卡A2可跑，适合训练侧最小闭环试点"
+cann-recipes-train,deepseek-r1-rl,DeepSeek-R1,rl_train,complete,partial,complex,partial,yes,low,"128卡A3门槛高；多框架patch和容器依赖重；接入成本高","价值高但不适合第一批"
+cann-recipes-train,deepseek-v3.2-pretrain,DeepSeek-V3.2,pretrain,complete,clear,complex,partial,yes,low,"64卡A3门槛高；数据和权重规模大；适合后续平台化样例","适合作为大闭环输入，不适合最小试点"
+cann-recipes-spatial-intelligence,hunyuan3d,Hunyuan3D,infer,complete,clear,moderate,partial,yes,high,"依赖上游Hunyuan3D代码复制；运行参数和结果落盘未统一","有minimal_demo_npu.py；适合空间智能推理试点"
+cann-recipes-spatial-intelligence,vggt,VGGT,infer_eval,complete,clear,moderate,partial,yes,high,"依赖上游VGGT代码复制；评测脚本和推理脚本并存但输出口径需统一","有demo_infer.py和infer_test.sh；兼具推理与评测价值"
+cann-recipes-spatial-intelligence,gaussian-splatting,3DGS,train_infer,complete,clear,moderate,partial,yes,high,"需要自定义算子编译；训推结果和profiling需统一采集","有train.py和train_all.sh；适合算法级样例"
+cann-recipes-embodied-intelligence,pi0-torch,Pi0,infer,complete,clear,moderate,no,yes,high,"依赖download_code_and_data.sh拉外部代码和数据；profiling链路未显式标准化","有run_pi0_inference.sh；对外展示价值高"
+cann-recipes-embodied-intelligence,pi0.5-train,Pi0.5,train,complete,clear,moderate,partial,partial,medium,"环境和脚本较完整，但训练验证口径与profiling输出需统一","有run_train.sh和profiling脚本，适合第二批试点"
+cann-recipes-embodied-intelligence,openvla-om,OpenVLA,infer_om,complete,partial,complex,no,partial,medium,"离线转换链路长；ONNX/OM/仿真评测分散；标准入口不够统一","适合310P离线部署方向，但不是第一批最简样例"

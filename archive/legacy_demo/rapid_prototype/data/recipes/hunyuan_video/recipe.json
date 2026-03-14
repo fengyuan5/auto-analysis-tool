@@ -1,0 +1,20 @@
+{
+  "recipe_name": "hunyuan_video",
+  "model_name": "HunyuanVideo",
+  "task_type": "video_generation",
+  "mode": "infer",
+  "domain": "multimodal",
+  "hardware_target": "Ascend 910B",
+  "cann_version": "8.x",
+  "framework": "PyTorch",
+  "entry_command": "bash scripts/test.sh",
+  "profiling_supported": true,
+  "baseline_run_id": "hunyuan_video_baseline",
+  "optimized_run_id": "hunyuan_video_optimized",
+  "summary": "推理入口和 profiling 挂接比较明确，适合做推理侧最小闭环样例。",
+  "expected_focus": [
+    "infer",
+    "profiling",
+    "latency"
+  ]
+}

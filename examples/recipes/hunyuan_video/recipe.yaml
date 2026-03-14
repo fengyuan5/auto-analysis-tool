@@ -1,0 +1,46 @@
+{
+  "recipe_name": "hunyuan_video",
+  "model_name": "HunyuanVideo",
+  "task_type": "video_generation",
+  "mode": "infer",
+  "domain": "multimodal",
+  "hardware_target": "Ascend 910B",
+  "cann_version": "8.x",
+  "framework": "PyTorch",
+  "python_version": "3.10",
+  "entrypoint": {
+    "type": "shell",
+    "path": "scripts/test.sh",
+    "workdir": ".",
+    "default_args": []
+  },
+  "upstream_repos": [
+    "cann-recipes-infer"
+  ],
+  "model_weights": [
+    "manual_download"
+  ],
+  "datasets": [],
+  "container": "",
+  "requires_git_lfs": false,
+  "outputs": {
+    "log_dir": "outputs/logs",
+    "result_dir": "outputs/results",
+    "checkpoint_dir": "outputs/checkpoints"
+  },
+  "profiling": {
+    "supported": true,
+    "enable_mode": "flag",
+    "enable_flag": "--profile",
+    "notes": "适合做推理侧 profiling 挂接试点。"
+  },
+  "metrics": {
+    "performance": ["latency_ms", "throughput", "memory_peak_gb"],
+    "accuracy": []
+  },
+  "comparison_baseline": "single_card_default",
+  "baseline_run_id": "hunyuan_video_baseline",
+  "optimized_run_id": "hunyuan_video_optimized",
+  "summary": "推理入口和 profiling 挂接比较明确，适合做推理侧最小闭环样例。",
+  "expected_focus": ["infer", "profiling", "latency"]
+}

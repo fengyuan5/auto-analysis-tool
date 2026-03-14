@@ -1,0 +1,8 @@
+{
+  "run_id": "qwen2_5_rl_demo_baseline",
+  "host_wait_ratio": 0.13,
+  "kernel_utilization": 0.63,
+  "io_wait_ratio": 0.19,
+  "launch_overhead_ms": 12.8,
+  "dominant_issue": "data_pipeline_and_fragmented_train_step"
+}

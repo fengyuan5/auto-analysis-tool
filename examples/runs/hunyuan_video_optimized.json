@@ -1,0 +1,14 @@
+{
+  "run_id": "hunyuan_video_optimized",
+  "recipe_name": "hunyuan_video",
+  "variant": "optimized",
+  "status": "success",
+  "run_mode": "single_card",
+  "device_count": 1,
+  "latency_ms": 1180.0,
+  "throughput": 0.84,
+  "memory_peak_gb": 26.1,
+  "accuracy_metric": null,
+  "accuracy_value": null,
+  "notes": "打开图模式并减少 host 侧等待。"
+}

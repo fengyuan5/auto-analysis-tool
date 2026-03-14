@@ -1,0 +1,48 @@
+{
+  "recipe_name": "pi0_infer_with_torch",
+  "model_name": "Pi0",
+  "task_type": "embodied_policy_inference",
+  "mode": "infer",
+  "domain": "embodied_intelligence",
+  "hardware_target": "Ascend 910B",
+  "cann_version": "8.x",
+  "framework": "PyTorch",
+  "python_version": "3.10",
+  "entrypoint": {
+    "type": "shell",
+    "path": "run_pi0_inference.sh",
+    "workdir": ".",
+    "default_args": []
+  },
+  "upstream_repos": [
+    "cann-recipes-embodied-intelligence"
+  ],
+  "model_weights": [
+    "auto_download"
+  ],
+  "datasets": [
+    "demo_assets"
+  ],
+  "container": "",
+  "requires_git_lfs": false,
+  "outputs": {
+    "log_dir": "outputs/logs",
+    "result_dir": "outputs/results",
+    "checkpoint_dir": "outputs/checkpoints"
+  },
+  "profiling": {
+    "supported": false,
+    "enable_mode": "none",
+    "enable_flag": "",
+    "notes": "先验证 benchmark、外部依赖接入和结果落盘。"
+  },
+  "metrics": {
+    "performance": ["latency_ms", "throughput", "memory_peak_gb"],
+    "accuracy": ["success_rate"]
+  },
+  "comparison_baseline": "single_card_default",
+  "baseline_run_id": "pi0_infer_with_torch_baseline",
+  "optimized_run_id": "pi0_infer_with_torch_optimized",
+  "summary": "具身智能展示价值高，适合验证外部依赖接入、benchmark 和结果落盘。",
+  "expected_focus": ["embodied", "benchmark", "integration"]
+}

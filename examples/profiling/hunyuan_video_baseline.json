@@ -1,0 +1,8 @@
+{
+  "run_id": "hunyuan_video_baseline",
+  "host_wait_ratio": 0.24,
+  "kernel_utilization": 0.58,
+  "io_wait_ratio": 0.08,
+  "launch_overhead_ms": 17.4,
+  "dominant_issue": "host_sync_and_small_graph"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "qwen2_5_rl_demo_optimized",
+  "host_wait_ratio": 0.09,
+  "kernel_utilization": 0.69,
+  "io_wait_ratio": 0.11,
+  "launch_overhead_ms": 9.7,
+  "dominant_issue": "mostly_train_compute"
+}

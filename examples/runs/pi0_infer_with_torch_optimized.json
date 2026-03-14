@@ -1,0 +1,14 @@
+{
+  "run_id": "pi0_infer_with_torch_optimized",
+  "recipe_name": "pi0_infer_with_torch",
+  "variant": "optimized",
+  "status": "success",
+  "run_mode": "single_card",
+  "device_count": 1,
+  "latency_ms": 78.0,
+  "throughput": 12.4,
+  "memory_peak_gb": 9.2,
+  "accuracy_metric": "success_rate",
+  "accuracy_value": 0.913,
+  "notes": "把 benchmark 输出结构化并减少 I/O 等待。"
+}

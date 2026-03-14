@@ -1,0 +1,14 @@
+{
+  "run_id": "qwen2_5_rl_demo_optimized",
+  "recipe_name": "qwen2_5_rl_demo",
+  "variant": "optimized",
+  "status": "success",
+  "run_mode": "single_node_train",
+  "device_count": 1,
+  "latency_ms": null,
+  "throughput": 149.0,
+  "memory_peak_gb": 29.8,
+  "accuracy_metric": "reward_score",
+  "accuracy_value": 0.628,
+  "notes": "统一了训练配置记录，吞吐和收益都有改善。"
+}

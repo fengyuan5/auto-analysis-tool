@@ -1,0 +1,14 @@
+{
+  "run_id": "hunyuan_video_baseline",
+  "recipe_name": "hunyuan_video",
+  "variant": "baseline",
+  "status": "success",
+  "run_mode": "single_card",
+  "device_count": 1,
+  "latency_ms": 1520.0,
+  "throughput": 0.66,
+  "memory_peak_gb": 27.8,
+  "accuracy_metric": null,
+  "accuracy_value": null,
+  "notes": "未做图模式和 host 侧异步优化。"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "pi0_infer_with_torch_baseline",
+  "host_wait_ratio": 0.18,
+  "kernel_utilization": 0.61,
+  "io_wait_ratio": 0.17,
+  "launch_overhead_ms": 8.6,
+  "dominant_issue": "external_asset_loading"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-analysis-tool"
+version = "0.1.0"
+description = "Prototype repository for Ascend/CANN recipe analysis and optimization."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Codex Prototype" }
+]
+dependencies = []
+
+[project.scripts]
+auto-analysis-tool = "auto_analysis_tool.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
