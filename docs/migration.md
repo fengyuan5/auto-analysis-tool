@@ -8,7 +8,7 @@
 2. 第一批试点 recipe 应该选谁
 3. V1 接入规范和合入规则应该长什么样
 
-对应文档已经统一收进 [docs/strategy](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/README.md)。
+对应文档已经统一收进 [docs/strategy](strategy/README.md)。
 
 当前缺的不是思路，而是代码化落地。
 
@@ -49,7 +49,7 @@
 
 因此迁移时最应该优先复用的是：
 
-1. [新增模型操作手册](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/how_to_add_a_model.md)
-2. [recipe 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/recipe.yaml)
+1. [新增模型操作手册](how_to_add_a_model.md)
+2. [recipe 模板](../examples/templates/recipe.yaml)
 3. `validate` 命令
 4. 现有 3 个示例 recipe

@@ -112,83 +112,83 @@
 
 先看：
 
-1. [项目目标与闭环](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/01_goals_and_closures.md)
-2. [执行推进方案](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/02_execution_plan.md)
-3. [项目架构说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/architecture.md)
+1. [项目目标与闭环](docs/strategy/01_goals_and_closures.md)
+2. [执行推进方案](docs/strategy/02_execution_plan.md)
+3. [项目架构说明](docs/architecture.md)
 
 ### 2. 准备后续合入 recipe 的同学
 
 先看：
 
-1. [新增模型操作手册](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/how_to_add_a_model.md)
-2. [recipe 合入规则](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/05_recipe_admission_rules.md)
-3. [模板说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/README.md)
-4. [试点 recipe 盘点](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/03_recipe_inventory.md)
+1. [新增模型操作手册](docs/how_to_add_a_model.md)
+2. [recipe 合入规则](docs/strategy/05_recipe_admission_rules.md)
+3. [模板说明](examples/templates/README.md)
+4. [试点 recipe 盘点](docs/strategy/03_recipe_inventory.md)
 
 ### 3. 准备一起共建数据库和后续 agent 的同学
 
 先看：
 
-1. [V1 接入规范](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/04_v1_integration_spec.md)
-2. [recipe 合入规则](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/05_recipe_admission_rules.md)
-3. [数据契约](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/data_contract.md)
-4. [数据模型](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/models.py)
-5. [数据加载层](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/repository.py)
-6. [规则校验层](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/validators.py)
+1. [V1 接入规范](docs/strategy/04_v1_integration_spec.md)
+2. [recipe 合入规则](docs/strategy/05_recipe_admission_rules.md)
+3. [数据契约](docs/data_contract.md)
+4. [数据模型](src/auto_analysis_tool/models.py)
+5. [数据加载层](src/auto_analysis_tool/repository.py)
+6. [规则校验层](src/auto_analysis_tool/validators.py)
 
 ## 仓库内容总览
 
 ### 1. 面向未来迁移的核心入口
 
-1. [新增模型操作手册](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/how_to_add_a_model.md)
-2. [recipe 合入规则](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/05_recipe_admission_rules.md)
-3. [项目架构说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/architecture.md)
-4. [数据契约](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/data_contract.md)
-5. [迁移说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/migration.md)
+1. [新增模型操作手册](docs/how_to_add_a_model.md)
+2. [recipe 合入规则](docs/strategy/05_recipe_admission_rules.md)
+3. [项目架构说明](docs/architecture.md)
+4. [数据契约](docs/data_contract.md)
+5. [迁移说明](docs/migration.md)
 
 ### 2. 之前的设计思路和策略文档
 
-1. [策略文档总入口](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/README.md)
-2. [从这里开始看](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/00_start_here.md)
-3. [项目目标与闭环](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/01_goals_and_closures.md)
-4. [执行推进方案](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/02_execution_plan.md)
-5. [试点 recipe 盘点](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/03_recipe_inventory.md)
-6. [V1 接入规范](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/04_v1_integration_spec.md)
-7. [recipe 合入规则](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/05_recipe_admission_rules.md)
-8. [recipe 盘点表](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/03_recipe_inventory.csv)
+1. [策略文档总入口](docs/strategy/README.md)
+2. [从这里开始看](docs/strategy/00_start_here.md)
+3. [项目目标与闭环](docs/strategy/01_goals_and_closures.md)
+4. [执行推进方案](docs/strategy/02_execution_plan.md)
+5. [试点 recipe 盘点](docs/strategy/03_recipe_inventory.md)
+6. [V1 接入规范](docs/strategy/04_v1_integration_spec.md)
+7. [recipe 合入规则](docs/strategy/05_recipe_admission_rules.md)
+8. [recipe 盘点表](docs/strategy/03_recipe_inventory.csv)
 
 ### 3. 模板和示例资产
 
-1. [模板说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/README.md)
-2. [recipe 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/recipe.yaml)
-3. [README 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/RECIPE_README.md)
-4. [run.sh 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/run.sh)
-5. [requirements.txt 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/requirements.txt)
-6. [run 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/run.json)
-7. [profiling 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/profiling.json)
-8. [HunyuanVideo 示例](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/recipes/hunyuan_video/recipe.yaml)
-9. [Qwen2.5 RL Demo 示例](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/recipes/qwen2_5_rl_demo/recipe.yaml)
-10. [Pi0 示例](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/recipes/pi0_infer_with_torch/recipe.yaml)
+1. [模板说明](examples/templates/README.md)
+2. [recipe 模板](examples/templates/recipe.yaml)
+3. [README 模板](examples/templates/RECIPE_README.md)
+4. [run.sh 模板](examples/templates/run.sh)
+5. [requirements.txt 模板](examples/templates/requirements.txt)
+6. [run 模板](examples/templates/run.json)
+7. [profiling 模板](examples/templates/profiling.json)
+8. [HunyuanVideo 示例](examples/recipes/hunyuan_video/recipe.yaml)
+9. [Qwen2.5 RL Demo 示例](examples/recipes/qwen2_5_rl_demo/recipe.yaml)
+10. [Pi0 示例](examples/recipes/pi0_infer_with_torch/recipe.yaml)
 
 ### 4. 代码入口
 
-1. [CLI 入口](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/cli.py)
-2. [数据加载层](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/repository.py)
-3. [规则校验层](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/validators.py)
-4. [分析层](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/analyzer.py)
-5. [报告层](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/reporting.py)
-6. [数据模型](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/models.py)
+1. [CLI 入口](src/auto_analysis_tool/cli.py)
+2. [数据加载层](src/auto_analysis_tool/repository.py)
+3. [规则校验层](src/auto_analysis_tool/validators.py)
+4. [分析层](src/auto_analysis_tool/analyzer.py)
+5. [报告层](src/auto_analysis_tool/reporting.py)
+6. [数据模型](src/auto_analysis_tool/models.py)
 
 ### 5. 测试和 CI
 
-1. [Repository 测试](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/tests/test_repository.py)
-2. [CLI 测试](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/tests/test_cli.py)
-3. [GitHub CI](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/.github/workflows/ci.yml)
+1. [Repository 测试](tests/test_repository.py)
+2. [CLI 测试](tests/test_cli.py)
+3. [GitHub CI](.github/workflows/ci.yml)
 
 ### 6. 历史归档
 
-1. [归档说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/archive/README.md)
-2. [早期快速原型](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/archive/legacy_demo/rapid_prototype/README.md)
+1. [归档说明](archive/README.md)
+2. [早期快速原型](archive/legacy_demo/rapid_prototype/README.md)
 
 ## 仓库结构
 
@@ -260,14 +260,14 @@ python3 -m unittest discover -s tests
 
 如果这个仓库要作为未来迁移参考，最重要的入口不是命令，而是接入步骤。直接看：
 
-1. [新增模型操作手册](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/how_to_add_a_model.md)
-2. [recipe 合入规则](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/05_recipe_admission_rules.md)
-3. [recipe 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/recipe.yaml)
-4. [README 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/RECIPE_README.md)
-5. [run.sh 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/run.sh)
-6. [requirements.txt 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/requirements.txt)
-7. [run 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/run.json)
-8. [profiling 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/profiling.json)
+1. [新增模型操作手册](docs/how_to_add_a_model.md)
+2. [recipe 合入规则](docs/strategy/05_recipe_admission_rules.md)
+3. [recipe 模板](examples/templates/recipe.yaml)
+4. [README 模板](examples/templates/RECIPE_README.md)
+5. [run.sh 模板](examples/templates/run.sh)
+6. [requirements.txt 模板](examples/templates/requirements.txt)
+7. [run 模板](examples/templates/run.json)
+8. [profiling 模板](examples/templates/profiling.json)
 
 ## 为什么 `recipe.yaml` 用 JSON 形式
 
@@ -275,9 +275,9 @@ python3 -m unittest discover -s tests
 
 ## 文档入口
 
-1. [文档导航](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/README.md)
-2. [策略文档入口](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/00_start_here.md)
-3. [新增模型操作手册](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/how_to_add_a_model.md)
-4. [数据契约](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/data_contract.md)
-5. [项目架构说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/architecture.md)
-6. [从当前项目到新项目的迁移说明](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/migration.md)
+1. [文档导航](docs/README.md)
+2. [策略文档入口](docs/strategy/00_start_here.md)
+3. [新增模型操作手册](docs/how_to_add_a_model.md)
+4. [数据契约](docs/data_contract.md)
+5. [项目架构说明](docs/architecture.md)
+6. [从当前项目到新项目的迁移说明](docs/migration.md)

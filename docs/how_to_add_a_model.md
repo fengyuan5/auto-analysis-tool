@@ -46,12 +46,12 @@
 
 至少复制下面这些模板或对照现有示例补齐：
 
-1. [recipe 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/recipe.yaml)
-2. [run 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/run.json)
-3. [profiling 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/profiling.json)
-4. [README 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/RECIPE_README.md)
-5. [run.sh 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/run.sh)
-6. [requirements.txt 模板](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/examples/templates/requirements.txt)
+1. [recipe 模板](../examples/templates/recipe.yaml)
+2. [run 模板](../examples/templates/run.json)
+3. [profiling 模板](../examples/templates/profiling.json)
+4. [README 模板](../examples/templates/RECIPE_README.md)
+5. [run.sh 模板](../examples/templates/run.sh)
+6. [requirements.txt 模板](../examples/templates/requirements.txt)
 
 目标目录约定：
 

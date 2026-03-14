@@ -9,11 +9,11 @@
 当前仓库有两层 schema 语义：
 
 1. 目标契约
-   以 [V1 接入规范](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/04_v1_integration_spec.md) 为准。
+   以 [V1 接入规范](strategy/04_v1_integration_spec.md) 为准。
 2. 当前可执行契约
-   以 [src/auto_analysis_tool/models.py](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/models.py)、
-   [src/auto_analysis_tool/repository.py](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/repository.py)、
-   [src/auto_analysis_tool/validators.py](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/validators.py) 为准。
+   以 [src/auto_analysis_tool/models.py](../src/auto_analysis_tool/models.py)、
+   [src/auto_analysis_tool/repository.py](../src/auto_analysis_tool/repository.py)、
+   [src/auto_analysis_tool/validators.py](../src/auto_analysis_tool/validators.py) 为准。
 
 一句话说：
 
@@ -34,7 +34,7 @@
 
 当前代码字段见：
 
-[src/auto_analysis_tool/models.py](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/src/auto_analysis_tool/models.py)
+[src/auto_analysis_tool/models.py](../src/auto_analysis_tool/models.py)
 
 ### 2. RunRecord
 
@@ -79,7 +79,7 @@
 
 ### 1. 设计原则讨论
 
-以 [V1 接入规范](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/04_v1_integration_spec.md) 和 [recipe 合入规则](/Users/fengyuannfoxmail.com/Projects/auto-analysis-tool/docs/strategy/05_recipe_admission_rules.md) 为准。
+以 [V1 接入规范](strategy/04_v1_integration_spec.md) 和 [recipe 合入规则](strategy/05_recipe_admission_rules.md) 为准。
 
 ### 2. 当前仓库接入和示例运行
 
